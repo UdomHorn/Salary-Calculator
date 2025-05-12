@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+
+<body>
+  <div class="form">
+    <h1>Salary Calculator</h1>
+    <label for="">Employee Name</label>
+    <input type="text" class="Name" placeholder="Please input your name">
+    <label for="">Basic Salary</label>
+    <input type="number" class="Salary" placeholder="0 $">
+    <label for="">Work day</label>
+    <input type="number" class="Workday" placeholder="0 day">
+    <label for="">Work hour</label>
+    <input type="number" class="Workhour" placeholder="0 hour">
+    <label for="">Absent</label>
+    <input type="number" class="Absent" placeholder="0 day">
+    <label for="">OT</label>
+    <input type="number" class="OT" placeholder="0 hour">
+    <label for="">Bonus</label>
+    <input type="number" class="Bonus" placeholder="0 $">
+    <label for="">Otherdeducation</label>
+    <input type="number" class="Otherdeducation" placeholder="0 $">
+    <label for="">Late</label>
+    <input type="number" class="Late" placeholder="0 minute">
+    <button>Calculate</button>
+  </div>
+
+  <div class="result">
+    <table>
+      <tr>
+        <th>Employee Name</th>
+        <th>Salary($)</th>
+        <th>Workday(day)</th>
+        <th>Workhour(hour)</th>
+        <th>Absent(day)</th>
+        <th>OT(hour)</th>
+        <th>Bonus($)</th>
+        <th>Otherdeducation($)</th>
+        <th>Late(minute)</th>      
+      </tr>
+      <tr>
+        <td class="name">?</td>
+        <td class="salary">?</td>
+        <td class="workday">?</td>
+        <td class="workhour">?</td>
+        <td class="absent">?</td>
+        <td class="ot">?</td>
+        <td class="bonus">?</td>
+        <td class="otherdeducation">?</td>
+        <td class="late">?</td>
+      </tr>
+    </table><br>
+
+    <table>
+      <tr>
+        <th>A.NetSalary($)</th>
+        <th>B.OTAmount($)</th>
+        <th>C.LateDeduction($)</th>
+        <th>D.Total($)</th>
+        <th>E.Tax($)</th>
+        <th>F.Final Salary($)</th>
+      </tr>
+      <tr>
+        <td class="networkingday">?</td>
+        <td class="otamount">?</td>
+        <td class="latededucation">?</td>
+        <td class="total">?</td>
+        <td class="tax">?</td>
+        <td class="finalsalary">?</td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+
+<script src="index.js"></script>
+
+</html>
